@@ -1,1 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+#nav h3{
+    color: blanchedalmond;
+    background-color: rgba(15, 14, 14, 0.89);
+    padding: 10px 20px;
+    border: 2px solid rgba(15, 14, 14, 0.89);;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#txt{
+    height: 40%;
+    width: 100%;
+    padding: 30px 35px;
+}
+
+#txt h1{
+    font-size: 120px;
+    line-height: 110px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+#rndm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rndm h5{
+    font-size: 20px;
+    font-weight: 500;    
+}
+
+#hero-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.prod.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp");
+    background-size: cover;
+    margin-top: 55px;
+}
+
+#about{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+}
+
+#about h2{
+    font-size: 65px;
+    font-weight: 500;
+    width: 62%;
+    line-height: 65px;
+    letter-spacing: -2px;
+}
+
+#abt-2{
+    width: 35%;
+    height: 100%;
+    padding: 0px 30px;
+    font-size: 20px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#icons i{
+    background-color: black;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+#work{
+    height: 90%;
+    width: 91%;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wid{
+    height: 80%;
+    width: 40%;
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-top: 68px;
+    border-right: 2px solid black;
+}
+
+#wid h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#wid i{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#services{
+    height: 80%;
+    width: 60%;
+    margin-top: 68px;
+    padding: 0px 40px
+
+}
+
+#s1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid black;
+    /* padding: 0px 0px; */
+}
+
+#s1 h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#s1 p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.651);
+    
+}
+
+#s1left{
+    width: 50%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+#s1right{
+    width: 50%;
+    height: 83%;
+    margin-top: 20px;
+    border-left: 2px solid black;
+}
+
+#s2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* padding: 50px 0px; */
+}
+
+#s2 h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#s2 p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.651);
+    
+}
+
+#s2left{
+    width: 50%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+#s2right{
+    width: 50%;
+    height: 85%;
+    margin-top: 20px;
+    border-left: 2px solid black;
+}
+
+.lfz{
+    padding: 10px 15px;
+}
