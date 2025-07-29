@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: #e1e2e7;
+    position: relative;
+}
+
+#text-one{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 60%;
+}
+
+.line {
+  z-index: 1;
+  width: 90px;
+  height: 1px;     
+  background-color: black;
+  margin-left: 40px; 
+}
+
+#text-two{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 70%;
+    left: 60%;
+}
+
+.line-two {
+  z-index: 1;
+  width: 90px;
+  height: 1px;     
+  background-color: black;
+  margin-left: 40px; 
+}
+
+#alphabet{
+    color: #79599c;
+    font-size: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#left-txt{
+    position: absolute;
+    top: 38%;
+    left: 52%;
+    display: flex;
+    gap: 25%;
+    z-index: 1;
+}
+
+#left-txt h4{
+    font-size: 5rem;
+    color: white;
+}
+
+.circle-arc {
+    width: 100%;
+    height: 100%;
+    background-color: #e1e2e7;
+    border: 70px solid white;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    top: -40%;
+    left: -40%;
+}
+
+.nav{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+#links{
+    display: flex;
+    gap: 20px;
+}
+
+#links>a{
+    text-decoration: none;
+    color: black;
+}
+
+#left>h5{
+    position: absolute;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 8px 20px;
+    transform: rotate(90deg);
+    margin-top: 18%;
+    margin-left: -12px;
+    font-weight: 400;
+}
+
+.ri-menu-4-line{
+    margin-right: 14px;
+    font-size: 18px;
+}
+
+#btm-content{
+    position: absolute;
+    left: 30px;
+    top: 78%;
+    /* display: flex; */
+}
+
+#btm-txt{
+    position: absolute;
+    top: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#btm-txt>h6{
+    margin-left: 35px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#btm-txt>p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ri-arrow-right-s-fill{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.ri-arrow-left-s-fill{
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-left: -5px;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #1e1f33;
+}
+
+#nav-right{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 52%;
+    z-index: 1;
+    position: relative;
+}
+
+#right-links{
+    display: flex;
+    gap: 40px;
+}
+
+#right-links>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#text-three{
+    color: white;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 60%;
+    gap: 40px;
+}
+
+.line-three {
+  width: 90px;
+  height: 1px;     
+  background-color: rgb(255, 255, 255);
+}
+
+#text-four{
+    color: white;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 70%;
+    left: 60%;
+    gap: 40px;
+}
+
+.line-four {
+  width: 90px;
+  height: 1px;     
+  background-color: rgb(255, 255, 255);
+}
+
+#right-txt{
+    position: absolute;
+    top: 38%;
+    right: 32%;
+    display: flex;
+    gap: 25%;
+    z-index: 1;
+}
+
+#right-txt h4{
+    font-size: 5rem;
+    color: white;
+}
+
+#btm-right-txt{
+    color: white;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#btm-right-txt>h6{
+    margin-left: 35px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* #btm-right-txt>p{
+    font-size: 12px;
+    font-weight: 400;
+} */
+
+#right>h5{
+    color: white;
+    position: absolute;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 8px 20px;
+    transform: rotate(90deg);
+    margin-top: 18%;
+    margin-left: 42%;
+    font-weight: 400;
+}
